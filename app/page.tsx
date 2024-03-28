@@ -92,7 +92,7 @@ export default function Home() {
         do řeči... pak už to šlo samo.
         <Image
           className="relative "
-          src="/coincidence-i-think-not.gif"
+          src="https://samcza.github.io/invitation/coincidence-i-think-not.gif"
           alt="ivy"
           width={500}
           height={500}
@@ -104,7 +104,7 @@ export default function Home() {
         <div style={{width: "100%", height: "25vh", position: "relative"}}>
         <Image
           className="relative "
-          src="/tldr.svg"
+          src="https://samcza.github.io/invitation//tldr.svg"
           alt="tldr"
           fill
         />
