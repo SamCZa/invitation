@@ -1,33 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+html {
+  font-size: 100%;
+}
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background-start-rgb: 140, 91, 179;
+  --background-end-rgb: 237, 237, 237;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --background-start-rgb: 140, 91, 179;
+    --background-end-rgb: 237, 237, 237;
   }
 }
 
 body {
+  font-size: 1.5rem;
   color: rgb(var(--foreground-rgb));
+  color:black; 
+
   background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+    background-attachment: fixed;
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.navbar {
+  background: rgba(139, 93, 174, 0.757);
+  /* background-color: black ; */
+  /* opacity: 0.1; */
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 1rem;
+  gap: 2rem;
+  padding: 0.5rem;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+  width: 100%;
+}
+
+.navbar-text {
+  font-size: 1.5rem;
+}
+
+.name{
+  position: absolute;
+  z-index: 2;
+  top: 85vh;
+  color: #ffffff
+}
+.main-image {
+  border-bottom: 5px solid rgb(180, 126, 221);
+  height: 130vh;
+  width: 100%;
+  /* /_next/image?url=%2FUs.jpeg&w=2048&q=75 */
+  /* background-image: url("/_next/image?url=%2FUs.jpeg&w=1024&q=75") */
+}
+
+.line-1::before {
+  content: " ";
+  position: absolute;
+  background: green;
+  border-radius: 10px;
+  height: 8px;
+  left: 10px;
+  top: 4px;
+  width: 8px;
+  z-index: 2;
+}
+
+.line-container {
+  position: relative;
+  display: block;
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    display: none;
+  }
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.container-section-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 8rem
+}
+
+.container-section-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container-section-1 {
+  display: flex;
+}
+.container-section-1-left {
+  width: 40%;
+  border-right: solid 1px #b47edd;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-1-left-line {
+  text-align: right;
+  padding-right: 1rem;
+}
+
+
+.section-1-right-line {
+  padding-left: 1rem;
+  text-align: left;
+}
+
+.container-section-1-right {
+  width: 50%;
+}
+
+.color-circle {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  border: 2px solid white;
+    box-shadow:  0 0 4px #ddd;
+}
+
+.color-1 {
+  background-color: #b47edd;
+}
+.color-2 {
+  background-color: #9e4ddc;
+}
+.color-3 {
+  background-color: #6e3885;
+}
+.color-4 {
+  background-color: #558034;
+}
+.color-5 {
+  background-color: #1f4f17;
 }
