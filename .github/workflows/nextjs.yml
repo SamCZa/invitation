@@ -29,6 +29,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: ACTIONS_STEP_DEBUG
+        value: true
       - name: Checkout
         uses: actions/checkout@v4
       - name: Detect package manager
