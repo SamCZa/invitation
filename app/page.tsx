@@ -33,10 +33,9 @@ export default function Home() {
       <div className="flex  flex-col items-center justify-between">
         <h2 className="name">Ivča & Honza</h2>
         <div className="relative place-items-center main-image">
-          <Image
+          <img
             src="https://samcza.github.io/invitation/us.jpeg"
             alt="Thats us"
-            fill
             // sizes="100vw"
             style={{
               objectFit: "cover",
@@ -104,7 +103,7 @@ export default function Home() {
         <div style={{width: "100%", height: "25vh", position: "relative"}}>
         <Image
           className="relative "
-          src="https://samcza.github.io/invitation//tldr.svg"
+          src="https://samcza.github.io/invitation/tldr.svg"
           alt="tldr"
           fill
         />
