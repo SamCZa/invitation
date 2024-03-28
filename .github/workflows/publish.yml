@@ -34,13 +34,19 @@ jobs:
       - name: Build with Next.js 🏗️
         run: npx next build
       
-      - name: test 🏗️
-        run:  echo "::workflow-command parameter1={data},parameter2={data}::{command value}"
-      
+      - name: Output results
+        run: |
+          echo "Found ${{ steps.pl.outputs.path_count }} file(s) with this extension:"
+          for i in ${{ steps.pl.outputs.paths }}; do
+          echo $i
+          done
+        with:
+          path: ./out
+
       - name: Upload artifact 📡
         uses: actions/upload-pages-artifact@v3
         with:
-          path: /invitation/out
+          path: ./out
 
   deploy:
     environment:
