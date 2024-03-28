@@ -25,6 +25,8 @@ jobs:
 
       - name: Setup Node.js ⚙️ - Cache dependencies ⚡ - Install dependencies 🔧
         uses: ./.github/workflows/setup-node
+        with:
+          path: ./out
 
       - name: Setup Pages ⚙️
         uses: actions/configure-pages@v4
@@ -33,7 +35,14 @@ jobs:
 
       - name: Build with Next.js 🏗️
         run: npx next build
-
+        with:
+          path: ./out
+      
+      - name: Build with Next.js 🏗️
+        run:  echo "::workflow-command parameter1={data},parameter2={data}::{command value}"
+        with:
+          path: ./out
+      
       - name: Upload artifact 📡
         uses: actions/upload-pages-artifact@v3
         with:
