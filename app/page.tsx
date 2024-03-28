@@ -40,6 +40,8 @@ export default function Home() {
             style={{
               objectFit: "cover",
               objectPosition: "top",
+              height: "100%",
+              width: "100%",
             }}
           />
         </div>
@@ -49,13 +51,13 @@ export default function Home() {
         <h2>Bylo nebylo</h2>
          
         
-        <Image
+        <img
           className="relative "
           src="/divider.svg"
           alt="ivy"
           width={300}
           height={500}
-          priority
+          
         />
         <p>
           za patero hlavami, sedmero lavičkami a devatero prázdnými kelímky byla
@@ -101,11 +103,10 @@ export default function Home() {
         <br/>
         TLDR:
         <div style={{width: "100%", height: "25vh", position: "relative"}}>
-        <Image
+        <img
           className="relative "
           src="https://samcza.github.io/invitation/tldr.svg"
           alt="tldr"
-          fill
         />
         </div>
       </div>
