@@ -33,13 +33,9 @@ jobs:
 
       - name: Build with Next.js 🏗️
         run: npx next build
-        with:
-          path: ./out
       
-      - name: Build with Next.js 🏗️
+      - name: test 🏗️
         run:  echo "::workflow-command parameter1={data},parameter2={data}::{command value}"
-        with:
-          path: ./out
       
       - name: Upload artifact 📡
         uses: actions/upload-pages-artifact@v3
