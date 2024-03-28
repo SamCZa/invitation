@@ -4,6 +4,7 @@ const nextConfig = {
   output: "export",
   reactStrictMode: true,
 images: {
+    disableStaticImages: true,
     remotePatterns: [
         {
             protocol: 'https',
@@ -11,6 +12,7 @@ images: {
             port: '',
             pathname: '**',
         },
+        
     ],
 },
 };
