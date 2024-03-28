@@ -1,13 +1,8 @@
-/**
-* @type {import('next').NextConfig}
-*/
+/** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: "export",
-    images: {
-      loader: 'akamai',
-      path: '',
-    },
-    assetPrefix: './',
-  };
-  
-  export default nextConfig;
+  basePath: "/invitation",
+  output: "export",
+  reactStrictMode: true,
+};
+
+export default nextConfig;
