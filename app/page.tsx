@@ -34,7 +34,7 @@ export default function Home() {
         <h2 className="name">Ivča & Honza</h2>
         <div className="relative place-items-center main-image">
           <Image
-            src="/Us.jpeg"
+            src="https://samcza.github.io/invitation/us.jpeg"
             alt="Thats us"
             fill
             // sizes="100vw"
