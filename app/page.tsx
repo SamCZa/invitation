@@ -179,7 +179,7 @@ export default function Home() {
       >
         <h2>Barvy</h2>
         Svatební výzdoba bude laděna do těchto barev
-        <div className="text-center container-section-1 gap-8 ">
+        <div className="text-center container-section-3 gap-8 ">
           <div className="color-circle color-1"></div>
           <div className="color-circle color-2"></div>
           <div className="color-circle color-3"></div>
