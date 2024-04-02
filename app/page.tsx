@@ -53,7 +53,7 @@ export default function Home() {
         
         <img
           className="relative "
-          src="/divider.svg"
+          src="https://samcza.github.io/invitation/divider.svg"
           alt="ivy"
           width={300}
           height={500}
@@ -105,7 +105,7 @@ export default function Home() {
         TLDR:
         <img
           className="relative "
-          src="https://samcza.github.io/invitation/tldr2.svg"
+          src="https://samcza.github.io/invitation/tldr.svg"
           alt="tldr"
         />
         </div>
