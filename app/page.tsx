@@ -45,29 +45,24 @@ export default function Home() {
             }}
           />
         </div>
-      </div>
-      <div id="about_us" className="mb-32 text-left container-section-2 ">
-        
-        <h2>Bylo nebylo</h2>
-         
-        
         <img
-          className="relative "
+          className="relative divider"
           src="https://samcza.github.io/invitation/divider.svg"
-          alt="ivy"
-          width={300}
-          height={500}
-          
+          alt="divider"
         />
+      </div>
+      <div id="about_us" className="text-left container-section-2 ">
+        <h2>Bylo nebylo</h2>
         <p>
           za patero hlavami, sedmero lavičkami a devatero prázdnými kelímky byla
-          v zajetí nudy opilá princezna. Když v tom se náhle objevil <Link
+          v zajetí nudy opilá princezna. Když v tom se náhle objevil{" "}
+          <Link
             style={{
               textDecoration: "underline",
             }}
             href="https://youtube.com/clip/UgkxRlmhBEZqDuobYiH7_D7_UuF0g2zZMjaZ?si=DqVDt4DkLeEYPbBj"
           >
-             Splašený William
+            Splašený William
           </Link>{" "}
           se svými{" "}
           <Link
@@ -85,39 +80,32 @@ export default function Home() {
           šťávou) a pomocí několika správně vybraných lektvarů a dobře volených
           slovních obratů jí ukázal, že on je tou správnou volbou. Dřív než si
           stihla uvědomit, co se vlastně děje, vyměnili si čísla svých
-          poštovních holubů. Naštěstí pro našeho hrdinu, princezna má takový nešvar -
-          považuje za neslušné neodpovědět na zprávu - a tak to všechno začalo.
+          poštovních holubů. Naštěstí pro našeho hrdinu, princezna má takový
+          nešvar - považuje za neslušné neodpovědět na zprávu - a tak to všechno
+          začalo.
         </p>
-        <br/>
+        <br />
         Tahle pohádka není o nás, my jsme do sebe vrazili na Majálesu a dali se
         do řeči... pak už to šlo samo.
-        {/* <Image
-          className="relative "
-          src="https://samcza.github.io/invitation/coincidence-i-think-not.gif"
-          alt="ivy"
-          width={500}
-          height={500}
-          priority
-        /> */}
-        <br/>
-        <br/>
+        <br />
+        <br />
         <div className="tldr-container">
-        TLDR:
-        <img
-          className="relative "
-          src="https://samcza.github.io/invitation/tldr.svg"
-          alt="tldr"
-        />
+          TLDR:
+          <img
+            className="relative"
+            src="https://samcza.github.io/invitation/tldr.svg"
+            alt="tldr"
+          />
         </div>
-      </div>
-      <div id="plan" className="flex  flex-col items-center justify-between">
-        <h2>Plán</h2>
         <img
-          className="relative "
+          className="relative divider"
           src="https://samcza.github.io/invitation/divider.svg"
           alt="tldr"
         />
-        <div className="mb-32 text-center container-section-1 ">
+      </div>
+      <div id="plan" className="flex  flex-col items-center justify-between">
+        <h2>Plán</h2>
+        <div className="text-center container-section-1 ">
           <div className="container-section-1-left">
             <div className="section-1-left-line">Úterý 25.6.2024</div>
             <br />
@@ -158,22 +146,28 @@ export default function Home() {
             <div className="section-1-right-line">14:00 Odjezd</div>
           </div>
         </div>
+        <img
+          className="relative divider"
+          src="https://samcza.github.io/invitation/divider.svg"
+          alt="tldr"
+        />
       </div>
-      <div>
-        <div id="map" className="flex  flex-col items-center justify-between">
-          <h2>Kdepa to bude</h2>
-          <iframe
-            width="100%"
-            height="450"
-            loading="lazy"
-            src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ-8RddWzUCkcRrbrw-VkaitE&key=AIzaSyDcGyXB3E5WYzIzDbHAAzcBv96WucQPBNU"
-          ></iframe>
-        </div>
+
+      <div id="map" className="flex  flex-col items-center justify-between">
+        <h2>Kdepa to bude</h2>
+        <iframe
+          width="100%"
+          height="450"
+          loading="lazy"
+          src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ-8RddWzUCkcRrbrw-VkaitE&key=AIzaSyDcGyXB3E5WYzIzDbHAAzcBv96WucQPBNU"
+        ></iframe>
+        <img
+          className="relative divider"
+          src="https://samcza.github.io/invitation/divider.svg"
+          alt="tldr"
+        />
       </div>
-      <div
-        id="colors"
-        className="flex  flex-col items-center justify-between mb-16"
-      >
+      <div id="colors" className="flex  flex-col items-center justify-between ">
         <h2>Barvy</h2>
         Svatební výzdoba bude laděna do těchto barev
         <div className="text-center container-section-3 gap-8 ">
@@ -185,10 +179,15 @@ export default function Home() {
         </div>
         Nikoho nebude nutit, ALE nevěsta bude ráda, když se budete držet těchto
         barev
+        <img
+          className="relative divider"
+          src="https://samcza.github.io/invitation/divider.svg"
+          alt="tldr"
+        />
       </div>
       <div
         id="form"
-        className="flex  flex-col items-center justify-between  mb-16"
+        className="flex  flex-col items-center justify-between  mb-32"
       >
         <h2>Formulář</h2>
         Pokud se chystáš přijet na naší svatbu, vyplň prosím následující
