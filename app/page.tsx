@@ -91,34 +91,31 @@ export default function Home() {
         <br/>
         Tahle pohádka není o nás, my jsme do sebe vrazili na Majálesu a dali se
         do řeči... pak už to šlo samo.
-        <Image
+        {/* <Image
           className="relative "
           src="https://samcza.github.io/invitation/coincidence-i-think-not.gif"
           alt="ivy"
           width={500}
           height={500}
           priority
-        />
+        /> */}
         <br/>
         <br/>
+        <div className="tldr-container">
         TLDR:
-        <div style={{width: "100%", height: "25vh", position: "relative"}}>
         <img
           className="relative "
-          src="https://samcza.github.io/invitation/tldr.svg"
+          src="https://samcza.github.io/invitation/tldr2.svg"
           alt="tldr"
         />
         </div>
       </div>
       <div id="plan" className="flex  flex-col items-center justify-between">
         <h2>Plán</h2>
-        <Image
+        <img
           className="relative "
-          src="/divider.svg"
-          alt="ivy"
-          width={200}
-          height={500}
-          priority
+          src="https://samcza.github.io/invitation/divider.svg"
+          alt="tldr"
         />
         <div className="mb-32 text-center container-section-1 ">
           <div className="container-section-1-left">
