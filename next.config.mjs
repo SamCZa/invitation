@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "/invitation",
-  output: "export",
+//   basePath: "/invitation",
+//   output: "export",
   reactStrictMode: true,
 images: {
     disableStaticImages: true,

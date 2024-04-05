@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
-import { Inter, Arizonia, Alex_Brush, Bad_Script, Playball, Great_Vibes, Sacramento } from "next/font/google";
+import { Inter, Arizonia, Alex_Brush, Bad_Script, Playball, Great_Vibes, Sacramento, Allura, Ephesis, Imperial_Script, Poiret_One } from "next/font/google";
 import "./globals.css";
 
-const greatVibes = Great_Vibes({ weight: '400', subsets: ["latin"] });
-const sacramento = Sacramento({ weight: '400', subsets: ["latin"] });
+const font = Poiret_One({ weight: '400', subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -17,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={greatVibes.className}>{children}</body>
+      <body className={font.className}>{children}</body>
     </html>
   );
 }

@@ -1,8 +1,10 @@
+import { Imperial_Script } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
 // import { StyleSheet, StyleSheetServer, css } from 'aphrodite';
 // import ReactDOMServer from 'react-dom/server';
 
+const headerFont = Imperial_Script({ weight: "400", subsets: ["latin"] });
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col">
@@ -31,7 +33,7 @@ export default function Home() {
         </a>
       </nav>
       <div className="flex  flex-col items-center justify-between">
-        <h2 className="name">Ivča & Honza</h2>
+        <h2 className={"name " + headerFont.className}>Ivča & Honza</h2>
         <div className="relative place-items-center main-image">
           <img
             src="https://samcza.github.io/invitation/us.jpeg"
@@ -45,16 +47,23 @@ export default function Home() {
             }}
           />
         </div>
+      </div>
+      <div id="about_us" className="text-left container-section-2 ">
+        <h2 className={headerFont.className}>Bylo nebylo</h2>
         <img
           className="relative divider"
           src="https://samcza.github.io/invitation/divider.svg"
           alt="divider"
         />
-      </div>
-      <div id="about_us" className="text-left container-section-2 ">
-        <h2>Bylo nebylo</h2>
-        <p>
-          za patero hlavami, sedmero lavičkami a devatero prázdnými kelímky byla
+        <div className="tldr-container">
+          <img
+            className="relative"
+            src="https://samcza.github.io/invitation/tldr.svg"
+            alt="tldr"
+          />
+        </div>
+        {/* <p> */}
+          {/* za patero hlavami, sedmero lavičkami a devatero prázdnými kelímky byla
           v zajetí nudy opilá princezna. Když v tom se náhle objevil{" "}
           <Link
             style={{
@@ -86,25 +95,15 @@ export default function Home() {
         </p>
         <br />
         Tahle pohádka není o nás, my jsme do sebe vrazili na Majálesu a dali se
-        do řeči... pak už to šlo samo.
-        <br />
-        <br />
-        <div className="tldr-container">
-          TLDR:
-          <img
-            className="relative"
-            src="https://samcza.github.io/invitation/tldr.svg"
-            alt="tldr"
-          />
-        </div>
+        do řeči... pak už to šlo samo. */}
+      </div>
+      <div id="plan" className="flex  flex-col items-center justify-between">
+        <h2 className={headerFont.className}>Plán</h2>
         <img
           className="relative divider"
           src="https://samcza.github.io/invitation/divider.svg"
           alt="tldr"
         />
-      </div>
-      <div id="plan" className="flex  flex-col items-center justify-between">
-        <h2>Plán</h2>
         <div className="text-center container-section-1 ">
           <div className="container-section-1-left">
             <div className="section-1-left-line">Úterý 25.6.2024</div>
@@ -146,31 +145,32 @@ export default function Home() {
             <div className="section-1-right-line">14:00 Odjezd</div>
           </div>
         </div>
-        <img
-          className="relative divider"
-          src="https://samcza.github.io/invitation/divider.svg"
-          alt="tldr"
-        />
       </div>
 
       <div id="map" className="flex  flex-col items-center justify-between">
-        <h2>Kdepa to bude</h2>
+        <h2 className={headerFont.className}>Kdepa to bude</h2>
+
+        <img
+          className="relative divider"
+          src="https://samcza.github.io/invitation/divider.svg"
+          alt="divider"
+        />
         <iframe
           width="100%"
           height="450"
           loading="lazy"
           src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ-8RddWzUCkcRrbrw-VkaitE&key=AIzaSyDcGyXB3E5WYzIzDbHAAzcBv96WucQPBNU"
         ></iframe>
+      </div>
+      <div id="colors" className="flex  flex-col items-center justify-between container-section-2">
+        <h2 className={headerFont.className}>Barvy</h2>
         <img
           className="relative divider"
           src="https://samcza.github.io/invitation/divider.svg"
           alt="tldr"
         />
-      </div>
-      <div id="colors" className="flex  flex-col items-center justify-between ">
-        <h2>Barvy</h2>
         Svatební výzdoba bude laděna do těchto barev
-        <div className="text-center container-section-3 gap-8 ">
+        <div className="text-center container-section-3 gap-8">
           <div className="color-circle color-1"></div>
           <div className="color-circle color-2"></div>
           <div className="color-circle color-3"></div>
@@ -179,17 +179,17 @@ export default function Home() {
         </div>
         Nikoho nebude nutit, ALE nevěsta bude ráda, když se budete držet těchto
         barev
+      </div>
+      <div
+        id="form"
+        className="flex  flex-col items-center justify-between  mb-32 container-section-2"
+      >
+        <h2 className={headerFont.className}>Formulář</h2>
         <img
           className="relative divider"
           src="https://samcza.github.io/invitation/divider.svg"
           alt="tldr"
         />
-      </div>
-      <div
-        id="form"
-        className="flex  flex-col items-center justify-between  mb-32"
-      >
-        <h2>Formulář</h2>
         Pokud se chystáš přijet na naší svatbu, vyplň prosím následující
         formulář
         <Link
