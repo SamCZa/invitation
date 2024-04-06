@@ -1,3 +1,3 @@
 export default function ImageLoader({ src }) {
-    return `https://example.com/${src}`;
+    return `https://samcza.github.io/invitation/${src}`;
   }
