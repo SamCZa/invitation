@@ -4,8 +4,8 @@ const nextConfig = {
   output: "export",
   reactStrictMode: true,
 images: {
-    loader: "custom",
-    loaderFile: './ImageLoader.js'
+    loader: "imgix",
+    path: "",
 },
 };
 

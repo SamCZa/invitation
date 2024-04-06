@@ -235,7 +235,7 @@ h2 {
 .modal {
   display: flex;
   position: fixed;
-  z-index: 9999999999999999999999999999999999999;
+  z-index: 100;
   padding-top: 0%;
   left: 0;
   top: 0;
