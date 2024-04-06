@@ -1,19 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
 //   basePath: "/invitation",
-  output: "export",
+//   output: "export",
   reactStrictMode: true,
 images: {
-    disableStaticImages: true,
-    remotePatterns: [
-        {
-            protocol: 'https',
-            hostname: '**',
-            port: '',
-            pathname: '**',
-        },
-        
-    ],
+    loader: "custom",
+    loaderFile: './ImageLoader.js'
 },
 };
 
