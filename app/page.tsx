@@ -83,7 +83,11 @@ const imageSections: { [key: string]: { src: string; title: string }[] } = {
     },
   ],
   house: [
-    { src: "house1.jpg", title: "5.4. Jsme převzali klíče od 30 leté hypotéky a plní elánu jsme se pustili do rekonstrukce." },
+    {
+      src: "house1.jpg",
+      title:
+        "5.4. Jsme převzali klíče od 30 leté hypotéky a plní elánu jsme se pustili do rekonstrukce.",
+    },
     {
       src: "house2.jpg",
       title: "Makali jsme ve dne v noci.",
@@ -94,12 +98,15 @@ const imageSections: { [key: string]: { src: string; title: string }[] } = {
     },
     {
       src: "house4.jpg",
-      title:
-        "A užili jsme si první Vánoce ve svém vlastním baráčku.",
+      title: "A užili jsme si první Vánoce ve svém vlastním baráčku.",
     },
   ],
   wedding: [
-    { src: "wedding1.jpg", title: "Svá poslední svoboná slova vyslovíme na zámku v Jindřichovicích 26.6.2024" },
+    {
+      src: "wedding1.jpg",
+      title:
+        "Svá poslední svoboná slova vyslovíme na zámku v Jindřichovicích 26.6.2024",
+    },
   ],
 };
 
@@ -184,8 +191,8 @@ export default function Home() {
             }}
           /> */}
           {lightboxDisplay ? (
-            <div className="modal">
-              <div className="lightbox">
+            <div className="modal" onClick={hideLightBox}>
+              <div className="lightbox" onClick={(e) => e.stopPropagation()}>
                 <Image
                   className="lightbox-img"
                   width={1000}
@@ -201,7 +208,11 @@ export default function Home() {
                 <div className="lightbox-gallery">
                   {imagesToShow.map((image, index) => {
                     return (
-                      <div className="lightbox-gallery-wrapper" key={index} style={{ width: "25%", position: "relative" }}>
+                      <div
+                        className="lightbox-gallery-wrapper"
+                        key={index}
+                        style={{ width: "25%", position: "relative" }}
+                      >
                         <Image
                           className="lightbox-img"
                           fill
@@ -236,11 +247,7 @@ export default function Home() {
       </div>
       <div id="about_us" className="text-left container-section-2 ">
         <h2 className={headerFont.className}>Bylo nebylo</h2>
-        <img
-          className="relative divider"
-          src="/divider.svg"
-          alt="divider"
-        />
+        <img className="relative divider" src="/divider.svg" alt="divider" />
         <div className="tldr-container-horizontal">
           <Image
             className="relative"
