@@ -201,7 +201,7 @@ export default function Home() {
                 <div className="lightbox-gallery">
                   {imagesToShow.map((image, index) => {
                     return (
-                      <div style={{ width: "25%", position: "relative" }}>
+                      <div className="lightbox-gallery-wrapper" key={index} style={{ width: "25%", position: "relative" }}>
                         <Image
                           className="lightbox-img"
                           fill
@@ -238,7 +238,7 @@ export default function Home() {
         <h2 className={headerFont.className}>Bylo nebylo</h2>
         <img
           className="relative divider"
-          src="https://samcza.github.io/invitation/divider.svg"
+          src="/divider.svg"
           alt="divider"
         />
         <div className="tldr-container-horizontal">
