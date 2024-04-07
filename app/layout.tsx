@@ -5,7 +5,7 @@ import "./globals.css";
 const font = Poiret_One({ weight: '400', subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Svatba Ivča & Honza",
+  title: "Svatba Ivča & Honza"
 };
 
 export default function RootLayout({
