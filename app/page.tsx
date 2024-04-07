@@ -15,32 +15,32 @@ const imageSections: { [key: string]: { src: string; title: string }[] } = {
       src: "benjamin1.webp",
       title: "To se narodil Benjík, který k nám neodmyslitelně patří.",
     },
-    { src: "benjamin2.webp", title: "Mezi jeho záliby patří jídlo..." },
+    { src: "benjamin2.webp", title: "Jeho záliby jsou jídlo..." },
     { src: "benjamin3.webp", title: "...spánek..." },
     { src: "benjamin4.webp", title: "...a proto si tak skvěle rozumíme" },
   ],
   majales: [
-    { src: "majales1.webp", title: "Oba jsme se tam vydali" },
+    { src: "majales1.webp", title: "Oba jsme se vydali na Majáles 2018." },
     {
       src: "majales2.webp",
-      title: "při vzniku této fotky jsme se poprvé uviděli",
+      title: "Při vzniku této fotky jsme se poprvé uviděli...",
     },
-    { src: "majales3.webp", title: "a od té doby držíme majálesovou tradici" },
-    { src: "majales4.webp", title: "letos to nebude naše první svatba" },
+    { src: "majales3.webp", title: "...a od té doby držíme majálesovou tradici." },
+    { src: "majales4.webp", title: "Dokonce jsme tam na letošní svatbu natrénovali." },
   ],
   dating: [
-    { src: "dating1.webp", title: "30.7. Benjík slavil narozeniny" },
+    { src: "dating1.webp", title: "30.7. Benjík slavil narozeniny." },
     {
       src: "dating2.webp",
-      title: "tu nejlepší maminku už měl",
+      title: "Tu nejlepší maminku už měl...",
     },
     {
       src: "dating3.webp",
-      title: "a přál si ještě někoho do zálohy",
+      title: "...a přál si ještě někoho do zálohy.",
     },
     {
       src: "dating4.webp",
-      title: "a tak jsme to dali dohromady",
+      title: "Tak jsme to dali dohromady.",
     },
   ],
   life: [
@@ -246,7 +246,7 @@ export default function Home() {
         </div>
       </div>
       <div id="about_us" className="text-left container-section-2 ">
-        <h2 className={headerFont.className}>Bylo nebylo</h2>
+        <h2 className={headerFont.className}>O nás</h2>
         <img className="relative divider" src="/divider.svg" alt="divider" />
         <div className="tldr-container-horizontal">
           <Image
@@ -454,8 +454,8 @@ export default function Home() {
         Tahle pohádka není o nás, my jsme do sebe vrazili na Majálesu a dali se
         do řeči... pak už to šlo samo. */}
       </div>
-      <div id="plan" className="flex  flex-col items-center justify-between">
-        <h2 className={headerFont.className}>Plán</h2>
+      <div id="plan" className="flex  flex-col items-center justify-between container-section-2">
+        <h2 className={headerFont.className}>Harmonogram</h2>
         <img
           className="relative divider"
           src="https://samcza.github.io/invitation/divider.svg"
@@ -502,7 +502,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div id="map" className="flex  flex-col items-center justify-between">
+      <div id="map" className="flex  flex-col items-center justify-between container-section-2">
         <h2 className={headerFont.className}>Kdepa to bude</h2>
 
         <img
