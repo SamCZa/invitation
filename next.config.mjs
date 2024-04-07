@@ -1,12 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-//   basePath: "/invitation",
-  output: "export",
+  //   basePath: "/invitation",
   reactStrictMode: true,
-images: {
+  output: "export",
+  images: {
     loader: "custom",
-    loaderFile: './ImageLoader.js'
-},
+    loaderFile: "./ImageLoader.js",
+  },
 };
 
 export default nextConfig;

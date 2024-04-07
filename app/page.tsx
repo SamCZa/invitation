@@ -12,98 +12,98 @@ const headerFont = Imperial_Script({ weight: "400", subsets: ["latin"] });
 const imageSections: { [key: string]: { src: string; title: string }[] } = {
   paw: [
     {
-      src: "benjamin.jpg",
+      src: "benjamin1.webp",
       title: "To se narodil Benjík, který k nám neodmyslitelně patří.",
     },
-    { src: "benjamin2.jpeg", title: "Mezi jeho záliby patří jídlo..." },
-    { src: "benjamin3.jpeg", title: "...spánek..." },
-    { src: "benjamin4.jpeg", title: "...a proto si tak skvěle rozumíme" },
+    { src: "benjamin2.webp", title: "Mezi jeho záliby patří jídlo..." },
+    { src: "benjamin3.webp", title: "...spánek..." },
+    { src: "benjamin4.webp", title: "...a proto si tak skvěle rozumíme" },
   ],
   majales: [
-    { src: "majales1.jpeg", title: "Oba jsme se tam vydali" },
+    { src: "majales1.webp", title: "Oba jsme se tam vydali" },
     {
-      src: "majales2.jpeg",
+      src: "majales2.webp",
       title: "při vzniku této fotky jsme se poprvé uviděli",
     },
-    { src: "majales3.jpeg", title: "a od té doby držíme majálesovou tradici" },
-    { src: "majales4.jpeg", title: "letos to nebude naše první svatba" },
+    { src: "majales3.webp", title: "a od té doby držíme majálesovou tradici" },
+    { src: "majales4.webp", title: "letos to nebude naše první svatba" },
   ],
   dating: [
-    { src: "dating1.jpg", title: "30.7. Benjík slavil narozeniny" },
+    { src: "dating1.webp", title: "30.7. Benjík slavil narozeniny" },
     {
-      src: "dating2.jpg",
+      src: "dating2.webp",
       title: "tu nejlepší maminku už měl",
     },
     {
-      src: "dating3.jpg",
+      src: "dating3.webp",
       title: "a přál si ještě někoho do zálohy",
     },
     {
-      src: "dating4.jpg",
+      src: "dating4.webp",
       title: "a tak jsme to dali dohromady",
     },
   ],
   life: [
-    { src: "life1.jpg", title: "30.7. Benjík slavil narozeniny" },
+    { src: "life1.webp", title: "30.7. Benjík slavil narozeniny" },
     {
-      src: "life2.jpg",
+      src: "life2.webp",
       title: "tu nejlepší maminku už měl",
     },
     {
-      src: "life3.jpg",
+      src: "life3.webp",
       title: "a přál si ještě někoho do zálohy",
     },
     {
-      src: "life4.jpg",
+      src: "life4.webp",
       title: "a tak jsme to dali dohromady",
     },
     {
-      src: "life5.jpg",
+      src: "life5.webp",
       title: "a tak jsme to dali dohromady",
     },
     {
-      src: "life6.jpg",
+      src: "life6.webp",
       title: "a tak jsme to dali dohromady",
     },
   ],
   engagement: [
-    { src: "engagement1.jpg", title: "Tuhle tváf fi nelfe nefamilovat," },
+    { src: "engagement1.webp", title: "Tuhle tváf fi nelfe nefamilovat," },
     {
-      src: "engagement2.jpg",
+      src: "engagement2.webp",
       title: "tak jsem jí požádal o ruku a ona nejdřív řekla ne,",
     },
     {
-      src: "engagement3.jpg",
+      src: "engagement3.webp",
       title: "ale viděla ten krásný miniaturní pěstní klín a rozmyslela si to.",
     },
     {
-      src: "engagement4.jpg",
+      src: "engagement4.webp",
       title:
         "Po roce jsme se vrátili na místo činu a udělali bordel na plotě u našeho majáku.",
     },
   ],
   house: [
     {
-      src: "house1.jpg",
+      src: "house1.webp",
       title:
         "5.4. Jsme převzali klíče od 30 leté hypotéky a plní elánu jsme se pustili do rekonstrukce.",
     },
     {
-      src: "house2.jpg",
+      src: "house2.webp",
       title: "Makali jsme ve dne v noci.",
     },
     {
-      src: "house3.jpg",
+      src: "house3.webp",
       title: "Naštěstí na se to na psychice nepodepsalo.",
     },
     {
-      src: "house4.jpg",
+      src: "house4.webp",
       title: "A užili jsme si první Vánoce ve svém vlastním baráčku.",
     },
   ],
   wedding: [
     {
-      src: "wedding1.jpg",
+      src: "wedding1.webp",
       title:
         "Svá poslední svoboná slova vyslovíme na zámku v Jindřichovicích 26.6.2024",
     },
@@ -180,7 +180,7 @@ export default function Home() {
         <h2 className={"name " + headerFont.className}>Ivča & Honza</h2>
         <div className="relative place-items-center main-image">
           {/* <img
-            src="https://samcza.github.io/invitation/us2.jpeg"
+            src="https://samcza.github.io/invitation/u  s2.jpeg"
             alt="Thats us"
             // sizes="100vw"
             style={{
@@ -234,7 +234,7 @@ export default function Home() {
             ""
           )}
           <Image
-            src="/us5.jpg"
+            src="/us.webp"
             alt="Thats us"
             fill
             // sizes="100vw"
