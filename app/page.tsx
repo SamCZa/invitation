@@ -17,7 +17,7 @@ const imageSections: { [key: string]: { src: string; title: string }[] } = {
     },
     { src: "benjamin2.webp", title: "Jeho záliby jsou jídlo..." },
     { src: "benjamin3.webp", title: "...spánek..." },
-    { src: "benjamin4.webp", title: "...a proto si tak skvěle rozumíme" },
+    { src: "benjamin4.webp", title: "...a proto si tak skvěle rozumíme." },
   ],
   majales: [
     { src: "majales1.webp", title: "Oba jsme se vydali na Majáles 2018." },
