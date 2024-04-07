@@ -44,26 +44,26 @@ const imageSections: { [key: string]: { src: string; title: string }[] } = {
     },
   ],
   life: [
-    { src: "life1.webp", title: "30.7. Benjík slavil narozeniny" },
+    { src: "life1.webp", title: "A tak se nám stal život a dodnes se z něj nemůžeme dostat." },
     {
       src: "life2.webp",
-      title: "tu nejlepší maminku už měl",
+      title: "Občas se nám hůře dýchalo.",
     },
     {
       src: "life3.webp",
-      title: "a přál si ještě někoho do zálohy",
+      title: "Chvíli jsme měli pocit horečky,",
     },
     {
       src: "life4.webp",
-      title: "a tak jsme to dali dohromady",
+      title: "jindy zase zimnice.",
     },
     {
       src: "life5.webp",
-      title: "a tak jsme to dali dohromady",
+      title: "Naštěstí jsme stále normální",
     },
     {
       src: "life6.webp",
-      title: "a tak jsme to dali dohromady",
+      title: "a moc nám to takhle sluší.",
     },
   ],
   engagement: [
