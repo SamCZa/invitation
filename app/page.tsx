@@ -463,11 +463,9 @@ export default function Home() {
         />
         <div className="text-center container-section-1 ">
           <div className="container-section-1-left">
-            <div className="section-1-left-line">Úterý 25.6.2024</div>
+            <div className="section-1-left-line">Úterý 25.6.</div>
             <br />
-            <br />
-            <div className="section-1-left-line">Středa 26.6.2024</div>
-            <br />
+            <div className="section-1-left-line">Středa 26.6.</div>
             <br />
             <br />
             <br />
@@ -478,25 +476,25 @@ export default function Home() {
             <br />
             <br />
             <br />
-            <div className="section-1-left-line">Čtvrtek 27.6.2024</div>
+            <div className="section-1-left-line">Čtvrtek 27.6.</div>
           </div>
           <div className="container-section-1-right">
             <div className="section-1-right-line">16:00 Příjezd</div>
             <div className="section-1-right-line">
-              18:00 Grilování a warmup na den D
+              18:00 Grilování
             </div>
             <br />
             <div className="section-1-right-line">8:00 Snídaně</div>
             <div className="section-1-right-line">11:00 Obřad</div>
-            <div className="section-1-right-line">11:30 Focení</div>
+            <div className="section-1-right-line">11:30 Společné focení</div>
             <div className="section-1-right-line">12:30 Oběd</div>
             <div className="section-1-right-line">15:00 Hod kyticí</div>
             <div className="section-1-right-line">15:30 První tanec</div>
-            <div className="section-1-right-line">16:00 Volná zábava</div>
-            <div className="section-1-right-line">20:00 Večerní raut</div>
+            <div className="section-1-right-line">16:30 Herní okénko</div>
+            <div className="section-1-right-line">18:00 Večerní raut</div>
             <div className="section-1-right-line">20:00 Focení novomanželů</div>
             <div className="section-1-right-line">21:30 Prskavky</div>
-            <div className="section-1-right-line">21:45 Párty</div>
+            <div className="section-1-right-line">21:45 Páárty!</div>
             <br />
             <div className="section-1-right-line">11:00 Opuštění pokojů</div>
             <div className="section-1-right-line">14:00 Odjezd</div>

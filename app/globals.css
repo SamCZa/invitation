@@ -184,10 +184,15 @@ h2 {
   display: flex;
 }
 .container-section-1-left {
-  width: 40%;
+  font-size: 1.3rem;
+  max-width: 20%;
   border-right: solid 1px #b47edd;
   display: flex;
   flex-direction: column;
+}
+.container-section-1-right {
+  font-size: 1.3rem;
+  /* width: 60%; */
 }
 
 .section-1-left-line {
@@ -200,9 +205,6 @@ h2 {
   text-align: left;
 }
 
-.container-section-1-right {
-  width: 50%;
-}
 
 .color-circle {
   border-radius: 50%;
